@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌹Валентинка от Ильи🌹</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Изменено на column для вертикального расположения */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: white;
+            font-family: monospace;
+            background: url(images.png);
+            background-size: cover; /* Растягиваем изображение */
+            background-repeat: no-repeat; /* Не повторяем изображение */
+            background-position: center; /* Центрируем изображение */
+        }
+        .heart {
+            font-size: 11px; /* Уменьшен размер шрифта */
+            line-height: 1.2;
+            text-align: center;
+            animation: glow 2.0s infinite alternate, beat 2.0s infinite alternate; /* Анимация свечения и биения */
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff1493, 0 0 20px #ff1493;
+                opacity: 0.7;
+            }
+            100% {
+                text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff1493, 0 0 40px #ff1493;
+                opacity: 1;
+            }
+        }
+
+        @keyframes beat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1); /* Увеличение размера для эффекта биения */
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .message {
+            opacity: 0; /* Начальная непрозрачность */
+            transform: translateY(20px); /* Начальное положение ниже */
+            animation: fadeInUp 1s forwards; /* Анимация появления */
+            margin-top: 20px; /* Отступ сверху */
+            background-color: #ff69b4;
+            padding: 5px 10px;
+            border-radius: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1; /* Конечная непрозрачность */
+                transform: translateY(0); /* Конечное положение */
+            }
+        }
+
+        /* Медиа-запрос для адаптации под мобильные устройства */
+        @media (max-width: 600px) {
+            .heart {
+                font-size: 10px; /* Еще меньше размер шрифта для мобильных */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">  
+          🌹🌹🌹🌹🌹🌹🌹  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;               🌹🌹🌹🌹🌹🌹🌹<br>   
+        🌹аткаЗлаточк🌹&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;          🌹ЗлаточкаЗла🌹    <br>         
+        🌹точкаЗлаточкаЗлат🌹 &nbsp;  🌹аЗлаточкаЗлаточка🌹  <br>     
+        🌹аточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗла🌹  <br>       
+      🌹аточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлато🌹    <br>    
+     🌹аточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточк🌹  <br>     
+    🌹точкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточка🌹    <br>   
+    🌹очкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗ🌹    <br>   
+    🌹чкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗл🌹    <br>   
+    🌹каЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗла🌹   <br>    
+    🌹аЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹     <br>  
+    🌹латочкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹      <br>  
+     🌹точкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹       <br>  
+      🌹очкаЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлато🌹      <br>   
+      🌹аЗлаточкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹       <br>    
+        🌹латочкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹         <br>   
+         🌹точкаЗлаточкаЗлаточкаЗлаточкаЗлат🌹         <br>    
+          🌹каЗлаточкаЗлаточкаЗлаточкаЗла🌹            <br>   
+            🌹латочкаЗлаточкаЗлаточкаЗл🌹             <br>    
+              🌹очкаЗлаточкаЗлаточкаЗ🌹              <br>     
+                🌹ЗлаточкаЗлаточк🌹                  <br>    
+                   🌹очкаЗлато🌹                     <br>    
+                      🌹Зла🌹                        <br>    
+                         🌹а🌹                        <br>     
+                          🌹                         <br>     
+                                                        
+                                 
+    </div>
+    <div class="message">
+        🌹С Днём Валентина! Злоточка🌹<br>
+                    
+    </div>
+</body>
+</html>
+&nbsp;
